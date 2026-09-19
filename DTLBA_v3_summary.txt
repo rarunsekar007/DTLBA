@@ -1,0 +1,4 @@
+AUTH N_s=256, q_s=8380417, k_s=4, l_s=5, eta_s=2, tau_s=39, B_z=130994
+BATCH Q_B=65537, default r_B=6, measured default B_min=None, repetitions=30
+r_B sweep crossovers={1: 2, 2: 5, 4: 25, 6: None}
+CAUTION: reference implementation; parameter security and EUF-CMA proof remain to be validated for the final primitive.

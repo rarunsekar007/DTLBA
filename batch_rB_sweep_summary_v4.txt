@@ -1,0 +1,10 @@
+DTLBA batch-size versus randomized-repetition sweep
+Batch sizes: [1, 2, 5, 10, 25, 50, 100, 200, 300, 500]
+r_B values: [1, 2, 4, 6]
+Repetitions per point: 30
+PERFORMANCE STUDY ONLY: final r_B requires a proved soundness target.
+
+r_B=1: measured B_min=2
+r_B=2: measured B_min=5
+r_B=4: measured B_min=25
+r_B=6: measured B_min=None
